@@ -54,7 +54,7 @@ class _PageCScreenState extends State<PageCScreen> {
 
   // Fetch nearby garages from Google Places API
   Future<void> _loadNearbyGarages(double lat, double lng) async {
-    String apiKey = "AIzaSyDotHbJIyf5MhsZRLzLPYm8OFoYQtXu5SE";
+    String apiKey = "#";//your  API Key
     String url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
         '?location=$lat,$lng&radius=2000&type=car_repair&key=$apiKey';
 
